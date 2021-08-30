@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+checkbox {
+	background: #fff;
+	color: #6ac6fd;
+	border: 'none';
+	width: 100px;
+	border-radius: 10px;
+	font-size: 16px;
+	padding: 5px 0;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	line-height: 20px;
+	border: double #32a1ce;
+	border-radius: 10px;
+	font-size: 16px;
+	padding: 5px 0;
+	margin: 10px;
+	color:#32a1ce;
+}
+
+button {
+	background-color: transparent;
+	margin: 10px;
+	border: double #32a1ce;
+	width: 300px;
+	border-radius: 30px;
+	font-size: 40px;
+	padding: 5px 0;
+}

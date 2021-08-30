@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="../js/ex4.js"></script>
+<script type="text/javascript" src="../js/ex4.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/ex4.css">
+</head>
+<body style="text-align: center;">
+	<h1>오늘 과제 발표자</h1>
+	<label><input type="checkbox" id="selectAll" name="selectall" value="selectall"
+		onclick="selectAll(this)"/>전체</label>
+	<br>
+	<div>
+		<label><input type="checkbox" name="intern" value="0" onclick="checkSelectAll()">강태종</label>
+		<label><input type="checkbox" name="intern" value="1" onclick="checkSelectAll()">신재영</label>
+		<label><input type="checkbox" name="intern" value="2" onclick="checkSelectAll()">이도현</label>
+		<label><input type="checkbox" name="intern" value="3" onclick="checkSelectAll()">임재욱</label>
+	</div>
+	<div>
+		<label><input type="checkbox" name="intern" value="4" onclick="checkSelectAll()">임채성</label>
+		<label><input type="checkbox" name="intern" value="5" onclick="checkSelectAll()">장진영</label>
+		<label><input type="checkbox" name="intern" value="6" onclick="checkSelectAll()">조민정</label>
+		<label><input type="checkbox" name="intern" value="7" onclick="checkSelectAll()">최호석</label>
+	</div>
+	<div>
+		<label><input type="checkbox" name="intern" value="8" onclick="checkSelectAll()">한상기</label>
+		<label><input type="checkbox" name="intern" value="9" onclick="checkSelectAll()">한승식</label>
+		<label><input type="checkbox" name="intern" value="10" onclick="checkSelectAll()">홍다혜</label>
+	</div>
+	<button id="getBtn" onclick="randomNum()">추첨</button>
+	<div id="result" style="margin-top: 20px; font-size: 80px;"></div>
+	
+</body>
+</html>

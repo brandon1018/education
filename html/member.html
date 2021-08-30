@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Member</title>
+    <script src="../js/member.js"></script>
+    <script type="text/javascript" src="../js/member.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/member.css">
+</head>
+<body>
+<div class="div">
+    <form>
+        <label>이름 <input class="input" type="text" placeholder="이름을 입력해주세요" id="empnm"></label><br>
+        <label>부서 <input class="input" type="text" placeholder="부서를 입력해주세요" id="dept"></label><br>
+        <label>업무 <input class="input" type="text" placeholder="업무를 입력하세요" id="role"></label><br>
+    </form>
+    <div class="btnDiv">
+        <input type="button" class="button" id="insertBtn" value="추가">
+        <input type="button" class="button" id="showBtn" value="조회">
+        <input type="button" class="button" id="resetBtn" value="초기화">
+    </div>
+    <table class="table" id="table">
+        <thead class="thead">모빌씨앤씨 직원 명단</thead>
+        <tbody class="tbody" id="mcncTbody"></tbody>
+    </table>
+</div>
+    </body>
+</html>

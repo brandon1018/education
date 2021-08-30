@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+button {
+	background: #fff;
+	color: #57befc;
+	border: 'none';
+	width: 100px;
+	border-radius: 10px;
+	font-size: 16px;
+	padding: 5px 0;
+}
+
+.one {
+	height: 300px;
+	width: 300px;
+	background: yellow;
+	
+}
+.two {
+	height: 200px;
+	width: 200px;
+	background: green;
+}
+.three {
+	height: 100px;
+	width: 100px;
+	background: red;
+}
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Function</title>
+</head>
+<body>
+<h1>FUNCTION</h1>
+<h3>bind</h3>
+<pre>
+this를 Window가 아닌 다른 객체로 바꿔줌.
+const obj = {name : 'Tom'};
+const say = function(){
+	console.log('Hi, my name is ' + this.name);
+}
+const boundSay = say.bind(obj);
+boundSay(); // <b>Hi, my name is Tom</b>
+</pre>
+</body>
+</html>
